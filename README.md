@@ -1,1 +1,0 @@
-# namzuchu.github.io
