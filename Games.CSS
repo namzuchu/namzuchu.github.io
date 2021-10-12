@@ -628,11 +628,12 @@ nav a:hover {
 .pea .pea3 {
     width: 50%;
     height: 100%;
+    padding-right: 220px;
 }
 
 .pea .pea1 img {
     width: 100%;
-    padding-right: 200px;
+    
     padding-top: 80px;
     height: 420px;
 }
@@ -817,11 +818,12 @@ nav a:hover {
 .oea .oea3 {
     width: 50%;
     height: 100%;
+    padding-right: 200px;
 }
 
 .oea .oea1 img {
     width: 100%;
-    padding-right: 200px;
+    
     padding-top: 80px;
     height: 420px;
 }
@@ -954,7 +956,6 @@ nav a:hover {
 /* cha */
 .cha {
     background-color: rgb(247, 241, 241);
-
     width: 100%;
     height: 100px;
     display: flex;
@@ -972,9 +973,11 @@ nav a:hover {
 .cha4{
     display: block;
     width: 50%;
+    opacity: 50%;
 }
 .cha2{
     margin-left: 378px;
+
 }
 .cha3{
     width: 30%;
@@ -1556,6 +1559,8 @@ margin-bottom: 20px;
 }
 .mea .mea2 .mea3 img{
     width:88%;
+    height: 150px;
+
     margin: 20px;
 }
 /* cách đều chữ */
@@ -1608,7 +1613,8 @@ margin-bottom: 20px;
 /* footer */
 
 footer {
-    background-color: #00439c;
+    background-color: #0072ce;
+    
     display: flex;
     width: 100%;
     height: 100%;
