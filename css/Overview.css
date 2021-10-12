@@ -22,7 +22,7 @@
 
 header {
     width: 100%;
-    background-image: url(../ASMFinal/images1/22575.jpg);
+    background-image: url(../images1/22575.jpg);
     padding-bottom: 0px;
     height: 800px;
     background-size: cover;
@@ -369,7 +369,7 @@ nav a:hover {
 .ci {
     height: 950px;
     width: 100%;
-    background-image: linear-gradient(0, #9ce9a8, transparent), url(../ASMFinal/images1/hyper.jpeg);
+    background-image: linear-gradient(0, #9ce9a8, transparent), url(../images1/hyper.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
@@ -508,7 +508,7 @@ nav a:hover {
 
 /* di */
 .di{
-    background-image: url(../ASMFinal/images1/back.jpeg);
+    background-image: url(../images1/back.jpeg);
     width:100%;
     height: 750px;
     background-repeat: no-repeat;

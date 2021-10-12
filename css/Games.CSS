@@ -20,7 +20,7 @@
 
 header {
     width: 100%;
-    background-image: url(../ASMFinal/images1/22575.jpg);
+    background-image: url(../images1/22575.jpg);
     padding-bottom: 0px;
     height: 800px;
     background-size: cover;
@@ -240,7 +240,7 @@ nav a:hover {
     height: 500px;
     margin-top: 50px;
     position: relative;
-    background-image: url(../ASMFinal/images1/thum1.jpeg);
+    background-image: url(../images1/thum1.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -349,7 +349,7 @@ nav a:hover {
     height: 500px;
     margin-top: 50px;
     position: relative;
-    background-image: url(../ASMFinal/images1/car.jpeg);
+    background-image: url(../images1/car.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position:right center;
@@ -547,7 +547,7 @@ nav a:hover {
 /* gea */
 
 .gea {
-    background-image: linear-gradient(0,rgba(162, 226, 169, 0.384),transparent),url(../ASMFinal/images1/stadium.jpeg);
+    background-image: linear-gradient(0,rgba(162, 226, 169, 0.384),transparent),url(../images1/stadium.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -680,7 +680,7 @@ nav a:hover {
 /* jea */
 
 .jea {
-    background-image: url(../ASMFinal/images1/callof.png);
+    background-image: url(../images1/callof.png);
     background-size: 1800px;
     background-repeat: no-repeat;
     width: 100%;
@@ -743,7 +743,7 @@ nav a:hover {
 /* kea */
 
 .kea {
-    background-image: url(../ASMFinal/images1/inhg.png);
+    background-image: url(../images1/inhg.png);
     background-size: 1800px;
     background-repeat: no-repeat;
     width: 100%;
@@ -870,7 +870,7 @@ nav a:hover {
 /* lea */
 
 .lea {
-    background-image: url(../ASMFinal/images1/inhg.png);
+    background-image: url(../images1/inhg.png);
     background-size: 1800px;
     background-repeat: no-repeat;
     width: 100%;

@@ -23,7 +23,7 @@
 
 header {
     width: 100%;
-    background-image: url(../ASM/images/1.jpg);
+    background-image: url(../images/1.jpg);
     padding-bottom: 0px;
     height:800px;
     background-size: cover;
@@ -127,8 +127,7 @@ nav {
 
 
 
-nav .nav3 {
-}
+
 
 nav .nav3 a img {
     margin-left:20px;
