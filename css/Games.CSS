@@ -192,39 +192,45 @@ nav a:hover {
 /* header */
 
 /* hea */
-
-.hea {
+.hea{
+    width:100%;
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 400px;
-    margin-top: 50px;
     justify-content: center;
+    height:100%;
+    margin: auto;
+}
+.heap {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #0072ce;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.hea1 {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: aqua;
+    padding-right: 20px;
+}
+.hea2{
+    width: 50%;
+    background-color:aquamarine;
+}
+.hea1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+.hea2 div{
+    padding-left: 20px;
+    margin-top: 80px;
+    background-color: red;
 }
 
-.hea .hea1 {
-    width: 580px;
-    height: 340px;
-    background-color: #00439c;
-}
-
-.hea .hea2 {
-    width: 580px;
-    height: 340px;
-    padding-left: 40px;
-    margin-top: 20px;
-    line-height: 30px;
-}
-
-.hea .hea1 button>img {
-    width: 580px;
-    height: 400px;
-}
-
-.hea .hea2 div h1 {
-    font-weight: lighter;
-    font-variant: small-caps;
-}
 
 .hea a {
     background-color: blue;
@@ -241,37 +247,36 @@ nav a:hover {
 /* aea */
 
 .aea {
+    margin-top: 50px;
     display: flex;
     width: 100%;
-    margin-top: 50px;
     justify-content: center;
     background-image: url(../images/thum1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-left: 200px;
-    padding-right: 200px;
+    
 }
-.aea3{
+/* .aea3{
     width: 50%;
     
 }
+.aea5 div {
+   width: 50%;
+   padding-left: 60px;
+}
 
 .aea1 img {
-    width: 580px;;
+    width: 100%;
     padding-top: 50px;
     height: 480px;
     padding-bottom: 50px;
 }
 
- .aea5 {
-    width: 50%;
-    padding-left: 40px;
-}
 
 .aea .aea5 div {
     margin-top: 100px;
-    /* margin-left: 20px; */
+    
     color: white;
 }
 
@@ -280,9 +285,9 @@ nav a:hover {
     font-size: 30pt;
     font-variant: small-caps;
     margin-bottom: 30px;
-}
+} */
 
-.aea .aea5 div a {
+.aea div a {
     background-color: white;
     color: black;
     text-decoration: none;
@@ -297,22 +302,19 @@ nav a:hover {
 /* bea */
 
 .bea {
+    width:100%;
     display: flex;
-    width: 100%;
-    height: 400px;
-    margin-top: 50px;
     justify-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    margin: auto;
 }
 
-.bea .bea1 {
-    width: 580px;
+/* .bea .bea1 {
+    width: 640px;
     height: 480px;
 }
 
 .bea .bea2 {
-    width: 580px;
+    width: 640px;
     height: 480px;
     font-weight: normal;
     font-style: normal;
@@ -322,16 +324,16 @@ nav a:hover {
 }
 
 .bea .bea1 button>img {
-    width: 580px;
+    width: 640px;
     height: 400px;
 }
 
 .bea .bea2 div h1 {
     font-weight: lighter;
     font-variant: small-caps;
-}
+} */
 
-.bea .bea2 div a {
+.bea div a {
     background-color: blue;
     color: white;
     text-decoration: none;
@@ -357,19 +359,19 @@ nav a:hover {
 }
 
 .cea .cea3 {
-    width: 580px;
+    width: 640px;
     height: 100%;
 }
 
-.cea .cea1 img {
+/* .cea .cea1 img {
     padding-top: 50px;
-    width: 580px;
+    width: 640px;
     height: 480px;
     padding-bottom: 50px;
 }
 
 .cea .cea5 {
-    width:580px;
+    width:640px;
     height: 480px;
     padding-left: 40px;
     padding-bottom: 50px;
@@ -386,9 +388,9 @@ nav a:hover {
     font-size: 30pt;
     font-variant: small-caps;
     margin-bottom: 30px;
-}
+} */
 
-.cea5 div a {
+.cea div a {
     background-color: white;
     color: black;
     text-decoration: none;
@@ -404,29 +406,29 @@ nav a:hover {
 
 .dea {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    height: 700px;
+    height: 100%;
     margin-top: 50px;
     justify-content: center;
+
 }
 
-.dea .dea1 {
-    width: 580px;
+.dea .hea1 {
+    width: 50%;
     height: 340px;
 }
 
 .dea .dea1 img {
-    width: 580px;
+    width: 640px;
     height: 400px;
 }
 
 .dea .dea1 div h1 {
     font-variant: small-caps;
     margin-bottom: 30px;
-}
+} 
 
-.dea .dea1 div a {
+.dea a {
     background-color: blue;
     color: white;
     text-decoration: none;
@@ -434,6 +436,7 @@ nav a:hover {
     border: 2px solid black;
     padding: 10px;
     line-height: 100px;
+    
 }
 
 /* dea */
@@ -442,29 +445,28 @@ nav a:hover {
 
 .eea {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
-    height: 700px;
+    /* height: 700px; */
     margin-top: 50px;
     justify-content: center;
 }
 
-.eea .eea1 {
-    width: 580px;
+/* .eea .eea1 {
+    width: 640px;
     height: 340px;
 }
 
 .eea .eea1 img {
-    width: 580px;
+    width: 640px;
     height: 400px;
 }
 
 .eea .eea1 div h1 {
     font-variant: small-caps;
     margin-bottom: 30px;
-}
+} */
 
-.eea .eea1 div a {
+.eea  a {
     background-color: blue;
     color: white;
     text-decoration: none;
@@ -675,30 +677,35 @@ nav a:hover {
 
 .jea {
     background-image: url(../images/callof.png);
-    background-size: 1800px;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     margin-top: 50px;
     display: flex;
     justify-content: center;
     
+    
 }
 
+.jea1{
+    width:50%;
+    margin-left: 200px;
+}
 .jea .jea3 {
     width: 50%;
     height: 100%;
 }
 
-.jea .jea3 .jea1 iframe {
-    width: 600px;
+ .jea1 iframe {
+    width: 100%;
     margin-top: 100px;
     height: 420px;
-    margin-left: 180px;
+    margin-bottom: 100px;
 }
 
 .jea .jea5 {
-    right: 250px;
     color: black;
     font-size: 12pt;
     width: 50%;
@@ -708,10 +715,7 @@ nav a:hover {
     margin-top: 20px;
     
 }
-
-
-
-.jea .jea5 a {
+.jea5 a {
     color:white;
     background-color: blue;
     text-decoration: none;
@@ -721,13 +725,13 @@ nav a:hover {
     line-height: 100px;
 }
 
-.jea .jea5 .jea6 {
+.jea6 {
     width: 80%;
     margin-top: 100px;
-    
+    margin-right: 200px;
 }
 
-.jea .jea5 .jea6 .jea7 {
+.jea7 {
     display: flex;
     margin-top: 20px;
 }
