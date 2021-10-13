@@ -45,7 +45,7 @@ header div .logopts img {
 
 header div div h1 {
     font-size: 40pt;
-    margin-left: 200px;
+    margin-left: 180px;
     margin-top: 200px;
 }
 /* header */
@@ -492,7 +492,6 @@ nav a:hover {
     width: 100%;
     height: 500px;
     margin-top: 50px;
-    position: relative;
     justify-content: center;
     
 }
@@ -504,7 +503,7 @@ nav a:hover {
 
 .fea .fea1 img {
     width: 100%;
-    padding-right: 200px;
+    padding-right: 180px;
     padding-top: 80px;
     height: 420px;
 }
@@ -537,9 +536,9 @@ nav a:hover {
 
 .fea .fea5 .fea6 {
     width: 80%;
-    padding-left: 20px;
+    
     margin-top: 80px;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 .fea .fea5 .fea6 .fea7 {
@@ -579,7 +578,7 @@ nav a:hover {
     width: 70%;
     margin-top: 120px;
     height: 420px;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 .gea .gea5 {
@@ -672,7 +671,7 @@ nav a:hover {
  .pea6 {
     width: 80%;
     margin-top: 80px;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 .pea7 {
@@ -701,10 +700,10 @@ nav a:hover {
 }
 
 .jea .jea3 .jea1 iframe {
-    width: 70%;
+    width: 600px;
     margin-top: 100px;
     height: 420px;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 .jea .jea5 {
@@ -767,7 +766,7 @@ nav a:hover {
     width: 70%;
     margin-top: 100px;
     height: 420px;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 .kea .kea5 {
@@ -819,36 +818,35 @@ nav a:hover {
     
 }
 
-.oea .oea3 {
+ .oea3 {
     width: 50%;
     height: 100%;
-    padding-right: 200px;
+    padding-right: 180px;
 }
 
-.oea .oea1 img {
+ .oea1 img {
     width: 100%;
-    
     padding-top: 80px;
     height: 420px;
 }
 
-.oea .oea5 {
+ .oea5 {
     width: 50%;
     height: 100%;
 }
 
-.oea .oea5 {
+ .oea5 {
     right: 250px;
     color: black;
     font-size: 12pt;
 }
 
-.oea .oea5 .oea6 p:first-child {
+ .oea6 p:first-child {
     font-size: 80pt;
     font-variant: small-caps;
 }
 
-.oea .oea5 a {
+ .oea5 a {
     background-color: blue;
     color: white;
     text-decoration: none;
@@ -858,14 +856,14 @@ nav a:hover {
     line-height: 100px;
 }
 
-.oea .oea5 .oea6 {
+ .oea6 {
     width: 80%;
-    padding-left: 20px;
+    
     margin-top: 80px;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
-.oea .oea5 .oea6 .oea7 {
+.oea7 {
     display: flex;
     margin-top: 20px;
 }
@@ -894,7 +892,7 @@ nav a:hover {
     width: 70%;
     margin-top: 100px;
     height: 420px;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 .lea .lea5 {
@@ -1016,7 +1014,7 @@ nav a:hover {
 
 .uea .uea1 {
     width:45%;
-    margin-left: 200px;
+    margin-left: 180px;
     
     
 }
@@ -1034,7 +1032,7 @@ nav a:hover {
 }
 .uea .uea3{
     width:45%;
-    margin-right: 200px;
+    margin-left: 180px;
     
 
 }
@@ -1080,7 +1078,7 @@ margin-bottom: 30px;
 .iea .iea1 {
     width:30%;
     
-    margin-left: 200px;
+    margin-left: 180px;
 }
  .iea1 img{
     width:100%;
@@ -1106,7 +1104,7 @@ margin-bottom: 30px;
 }
 .iea .iea6{
     width:30%;
-    margin-right: 200px;
+    margin-left: 180px;
 }
 
 
@@ -1165,8 +1163,8 @@ margin-bottom: 30px;
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 180px;
+    padding-left: 180px;
 
 }
 .qea3{
@@ -1303,8 +1301,8 @@ margin-bottom: 20px;
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 180px;
+    padding-left: 180px;
 
 }
 .wea3{
@@ -1425,8 +1423,8 @@ margin-bottom: 20px;
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 180px;
+    padding-left: 180px;
 
 }
 .nea3{
@@ -1556,7 +1554,7 @@ margin-bottom: 20px;
     width:100%;
     display: flex;
     padding-left:200px;
-    padding-right: 200px;
+    padding-right: 180px;
     margin-bottom: 60px;
 }
 .mea10{
