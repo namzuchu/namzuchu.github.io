@@ -257,37 +257,9 @@ nav a:hover {
     background-position: center center;
     
 }
-/* .aea3{
-    width: 50%;
-    
-}
-.aea5 div {
-   width: 50%;
-   padding-left: 60px;
-}
-
-.aea1 img {
-    width: 100%;
-    padding-top: 50px;
-    height: 480px;
-    padding-bottom: 50px;
-}
 
 
-.aea .aea5 div {
-    margin-top: 100px;
-    
-    color: white;
-}
-
-.aea .aea5 div p:first-child {
-    font-weight: bolder;
-    font-size: 30pt;
-    font-variant: small-caps;
-    margin-bottom: 30px;
-} */
-
-.aea div a {
+.aea  a {
     background-color: white;
     color: black;
     text-decoration: none;
@@ -308,30 +280,7 @@ nav a:hover {
     margin: auto;
 }
 
-/* .bea .bea1 {
-    width: 640px;
-    height: 480px;
-}
 
-.bea .bea2 {
-    width: 640px;
-    height: 480px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 30px;
-    padding-left: 50px;
-    padding-top: 50px;
-}
-
-.bea .bea1 button>img {
-    width: 640px;
-    height: 400px;
-}
-
-.bea .bea2 div h1 {
-    font-weight: lighter;
-    font-variant: small-caps;
-} */
 
 .bea div a {
     background-color: blue;
@@ -363,32 +312,7 @@ nav a:hover {
     height: 100%;
 }
 
-/* .cea .cea1 img {
-    padding-top: 50px;
-    width: 640px;
-    height: 480px;
-    padding-bottom: 50px;
-}
 
-.cea .cea5 {
-    width:640px;
-    height: 480px;
-    padding-left: 40px;
-    padding-bottom: 50px;
-}
-
-.cea5 div {
-    margin-top: 100px;
-    line-height: 30px;
-    color: white;
-}
-
- .cea5 div p:first-child {
-    font-weight: bolder;
-    font-size: 30pt;
-    font-variant: small-caps;
-    margin-bottom: 30px;
-} */
 
 .cea div a {
     background-color: white;
@@ -413,20 +337,17 @@ nav a:hover {
 
 }
 
-.dea .hea1 {
+ /* .dea .hea1 {
     width: 50%;
     height: 340px;
-}
+} */
 
-.dea .dea1 img {
+.dea .hea1 img {
     width: 640px;
     height: 400px;
-}
-
-.dea .dea1 div h1 {
-    font-variant: small-caps;
-    margin-bottom: 30px;
 } 
+
+
 
 .dea a {
     background-color: blue;
@@ -446,25 +367,14 @@ nav a:hover {
 .eea {
     display: flex;
     width: 100%;
-    /* height: 700px; */
+    
     margin-top: 50px;
     justify-content: center;
 }
-
-/* .eea .eea1 {
-    width: 640px;
-    height: 340px;
-}
-
-.eea .eea1 img {
+.eea .hea1 img {
     width: 640px;
     height: 400px;
-}
-
-.eea .eea1 div h1 {
-    font-variant: small-caps;
-    margin-bottom: 30px;
-} */
+} 
 
 .eea  a {
     background-color: blue;
@@ -483,61 +393,35 @@ nav a:hover {
 .fea {
     display: flex;
     width: 100%;
-    height: 500px;
-    margin-top: 50px;
     justify-content: center;
-    
+}
+.fea .hea1{
+    padding-right: 0;
 }
 
-.fea .fea3 {
-    width: 50%;
-    height: 100%;
+.fea .hea2{
+    margin-top: 50px;
+    width:50%;
 }
-
-.fea .fea1 img {
-    width: 100%;
-    padding-right: 180px;
-    padding-top: 80px;
-    height: 420px;
+.fea p{
+    width:90%;
+    font-size: 15pt;
 }
-
-.fea .fea5 {
-    width: 50%;
-    height: 100%;
-}
-
-.fea .fea5 {
-    right: 250px;
-    color: black;
-    font-size: 12pt;
-}
-
-.fea .fea5 .fea6 p:first-child {
-    font-size: 80pt;
+.fea p:first-child{
+    font-size:25pt;
     font-variant: small-caps;
+    margin-bottom: 30px;
 }
-
-.fea .fea5 a {
-    background-color: blue;
-    color: white;
+.fea a {
+    color: black;
     text-decoration: none;
     border-radius: 25px;
     border: 2px solid black;
     padding: 10px;
     line-height: 100px;
+    background-color:#0072ce;
 }
 
-.fea .fea5 .fea6 {
-    width: 80%;
-    
-    margin-top: 80px;
-    margin-left: 180px;
-}
-
-.fea .fea5 .fea6 .fea7 {
-    display: flex;
-    margin-top: 20px;
-}
 
 /* fea */
 
@@ -548,12 +432,12 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 600px;
+
     margin-top: 50px;
     display: flex;
     justify-content: center;
     position: relative;
-    
+    padding-bottom: 120px;
 }
 .gea8{
     position: absolute;
@@ -575,7 +459,6 @@ nav a:hover {
 }
 
 .gea .gea5 {
-    right: 250px;
     color: black;
     font-size: 12pt;
     width: 50%;
@@ -585,9 +468,6 @@ nav a:hover {
     margin-top: 20px;
     
 }
-
-
-
 .gea .gea5 a {
     color:white;
     background-color: blue;
@@ -614,62 +494,34 @@ nav a:hover {
 
 .pea {
     display: flex;
+    width: 100%;
     justify-content: center;
-    width: 100%;
-    height: 500px;
+}
+.pea .hea1{
+    padding-right: 0;
+}
+
+.pea .hea2{
     margin-top: 50px;
+    width:50%;
 }
-
-.pea .pea3 {
-    width: 50%;
-    height: 100%;
-    
+.pea p{
+    width:90%;
+    font-size: 15pt;
 }
-.pea1{
-    margin-right: 180px;
-}
-.pea1 img {
-    width: 100%;
-    
-    padding-top: 80px;
-    height: 420px;
-}
-
- .pea5 {
-    width: 50%;
-    height: 100%;
-}
-
- .pea5 {
-    right: 250px;
-    color: black;
-    font-size: 12pt;
-}
-
- .pea6 p:first-child {
-    font-size: 80pt;
+.pea p:first-child{
+    font-size:25pt;
     font-variant: small-caps;
+    margin-bottom: 30px;
 }
-
- .pea5 a {
-    background-color: blue;
-    color: white;
+.pea a {
+    color: black;
     text-decoration: none;
     border-radius: 25px;
     border: 2px solid black;
     padding: 10px;
+    background-color:#0072ce;
     line-height: 100px;
-}
-
- .pea6 {
-    width: 80%;
-    margin-top: 80px;
-    margin-left: 180px;
-}
-
-.pea7 {
-    display: flex;
-    margin-top: 20px;
 }
 
 /* pea */
@@ -689,19 +541,17 @@ nav a:hover {
     
 }
 
-.jea1{
-    width:50%;
-    margin-left: 200px;
-}
+
 .jea .jea3 {
     width: 50%;
     height: 100%;
 }
 
  .jea1 iframe {
-    width: 100%;
+    width: 70%;
     margin-top: 100px;
     height: 420px;
+    margin-left: 180px;
     margin-bottom: 100px;
 }
 
@@ -742,30 +592,31 @@ nav a:hover {
 
 .kea {
     background-image: url(../images/inhg.png);
-    background-size: 1800px;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
     margin-top: 50px;
     display: flex;
     justify-content: center;
     
 }
 
-.kea .kea3 {
+.kea3 {
     width: 50%;
     height: 100%;
 }
 
-.kea .kea3 .kea1 img {
+ .kea1 img {
     width: 70%;
-    margin-top: 100px;
+    margin-top: 120px;
     height: 420px;
     margin-left: 180px;
+    margin-bottom: 120px;
 }
 
 .kea .kea5 {
-    right: 250px;
     color: black;
     font-size: 12pt;
     width: 50%;
@@ -871,7 +722,7 @@ nav a:hover {
     background-size: 1800px;
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -885,26 +736,22 @@ nav a:hover {
 
 .lea .lea3 .lea1 img {
     width: 70%;
-    margin-top: 100px;
+    margin-top: 120px;
     height: 420px;
     margin-left: 180px;
+    margin-bottom: 120px;
 }
 
-.lea .lea5 {
-    right: 250px;
+.lea5 {
     color: black;
     font-size: 12pt;
     width: 50%;
     height: 100%;
     color: white;
     line-height:30px;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
 }
-
-
-
-.lea .lea5 a {
+.lea5 a {
     color:white;
     background-color: blue;
     text-decoration: none;
@@ -914,10 +761,9 @@ nav a:hover {
     line-height: 100px;
 }
 
-.lea .lea5 .lea6 {
+ .lea6 {
     width: 80%;
     margin-top: 100px;
-    
 }
 
 .lea .lea5 .lea6 .lea7 {
