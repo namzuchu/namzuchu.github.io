@@ -538,11 +538,10 @@ nav a:hover {
 }
 .di1 {
     width:50%;
+    height:100%;
     padding-top:150px;
     font-size:20pt;
     color:white;
-    
-    padding-bottom: 100px;
     margin-left: 180px;
 }
 .di1 p:first-child{
@@ -554,7 +553,7 @@ nav a:hover {
     color:white;
     padding-top:150px;
     font-size:12pt;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     margin-right: 180px;
     
 }
