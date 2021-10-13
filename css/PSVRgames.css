@@ -268,36 +268,28 @@ nav a:hover {
 }
 
 .footer-up{
+
+}
+.footer-up .new-pro{
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
-    margin-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    /* margin-bottom: 50px; */
     
-}
-.footer-up .produc1{
-    width:90%;
-}
-.clip img{
-    border-radius: 25px;
-    width:90%;
-    height:200px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-.footer-up .clip iframe{
+    background-color: aqua;
     
-    border-radius: 25px;
-    width:90%;
-    height:200px;
 }
 
+.footer-up .clip iframe{ 
+    border-radius: 25px;
+    width:350px;
+    height:200px;
+} 
+
 .footer-up .page-graph{
-    width:80%;
-}
+    width:350px;
+} 
 
 /* upcoming */
 /* studio */
@@ -345,8 +337,8 @@ nav a:hover {
     height: 100%;
     color:white;
     font-size:12pt;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 .footer-studio .produc1 p:first-child{
