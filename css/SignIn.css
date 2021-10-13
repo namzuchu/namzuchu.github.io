@@ -1,0 +1,140 @@
+/* reset */
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+* {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reset */
+/* container */
+
+.container {
+    background-image: url(../images/wallpaper.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    height: 560px;
+}
+
+/* container */
+
+/* row */
+
+div p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* row1 */
+
+.row1 {
+    height: 600px;
+}
+.row1 a{
+    text-decoration: none;
+}
+
+.row1 .img1 {
+    background-color: black;
+    display: flex;
+    padding-top: 18px;
+    height: 60px;
+}
+
+.row1 .img-responsive1 {
+    width: 120px;
+    height: 20px;
+    margin-left: 150px;
+}
+
+.row1 .img-responsive2 {
+    width: 30px;
+    height: 20px;
+    margin-left: 80px;
+}
+
+/* row1 */
+
+/* row2 */
+
+.row {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin: auto;
+    height: 328px;
+    text-align: center;
+    
+}
+
+.row2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* row2 */
+
+/* row4 */
+.row1 .row .row4 input {
+    width: 100%;
+    height:40px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 14pt;
+    padding-left: 5px;
+}
+/* row4 */
+/* row5 */
+.row5 button {
+    width: 100%;
+    height:40px;
+    background-color: rgb(55, 123, 226);
+    margin-top: 20px;
+    box-shadow: 0 0 0px black;
+    box-sizing: border-box;
+    font-size: 14pt;
+}
+/* row5 */
+/* row6 */
+.row6{
+    text-align: left;
+    margin-top: 20px;
+}
+/* row6 */
+/* row7 */
+.row7 button {
+    margin-top: 20px;
+    width: 100%;
+    height:40px;
+    background-color:rgb(55, 123, 226);
+    font-size: 14pt;
+}
+
+/* row7 */
+
+/* row8 */
+
+.row1 .row8 a{
+    margin-top: 20px;
+    text-align:center;
+    font-size: 14pt;
+    font-weight:none;
+}
+/* row8 */
