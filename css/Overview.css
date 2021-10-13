@@ -172,26 +172,27 @@ nav a:hover {
     display: flex;
     width: 100%;
     height: 700px;
+    justify-content:center;
 }
 
 .ai .ai1 {
+    margin-left:180px;
     width: 50%;
 }
 
 .ai .ai2 {
     width: 50%;
+    margin-right: 180px;
 }
 
 .ai .ai2 img {
     margin-top: 80px;
     width: 100%;
-    padding-right: 200px;
 }
 
 .ai .ai1 .ai3 {
     height: 400px;
     width: 100%;
-    padding-left: 200px;
     padding-top: 200px;
 }
 
@@ -526,32 +527,36 @@ nav a:hover {
 
 /* di */
 .di{
-    background-image: url(../images/back.jpeg);
+    background-image: linear-gradient(0,rgb(238, 229, 229),transparent),url(../images/back.jpeg);
     width:100%;
-    height: 750px;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
+    background-size: cover;
+    background-position: top left;
     display: flex;
-    justify-content: space-between;   
+    justify-content: center;   
+    
 }
 .di1 {
-    width: 100%;
-    padding-top:300px;
-    font-size:25pt;
+    width:50%;
+    padding-top:150px;
+    font-size:20pt;
     color:white;
-    padding-left: 150px;
+    
+    padding-bottom: 100px;
+    margin-left: 180px;
 }
 .di1 p:first-child{
     font-size:12pt;
     font-variant: small-caps;
 }
 .di2 {
-    width: 100%;
+    width: 50%;
     color:white;
-    padding-top:300px;
-    font-size:14pt;
-    padding-right: 150px;
+    padding-top:150px;
+    font-size:12pt;
+    padding-bottom: 200px;
+    margin-right: 180px;
+    
 }
 /* di */
 
