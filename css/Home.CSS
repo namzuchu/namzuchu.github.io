@@ -6,18 +6,18 @@
 
 /* a1 */
 
-.a1{
+.a1 {
     position: relative;
     background-color: black;
     width: 100%;
     height: 30px;
-
 }
+
 .a1 img {
     position: absolute;
     width: 6%;
-    right:0;
-    top:5px;
+    right: 0;
+    top: 5px;
 }
 
 /* a1 */
@@ -28,11 +28,10 @@ header {
     width: 100%;
     background-image: url(../images/1.jpg);
     padding-bottom: 0px;
-    height:800px;
+    height: 800px;
     background-size: cover;
     background-position: center center;
 }
-
 
 header img {
     width: 100%;
@@ -82,43 +81,38 @@ header h1 a {
 
 /* nav */
 
-.nav5>ul>li{
+.nav5>ul>li {
     padding-right: 50px;
     position: relative;
-    width:100%;
+    width: 100%;
 }
-.nav5>ul>li>ul{
+
+.nav5>ul>li>ul {
     position: absolute;
     display: none;
     list-style: none;
-    line-height:30px;
+    line-height: 30px;
     width: 100%;
-    
 }
-.nav5>ul>li:hover ul{
+
+.nav5>ul>li:hover ul {
     margin-top: 10px;
     box-shadow: 10px -10px 40px aqua;
     border: 2px solid black;
     border-radius: 20px;
     padding-top: 10px;
-    display: flex;;
+    display: flex;
+    ;
     width: 400px;
     justify-content: center;
 }
-
-
-
-
-
 
 .nav5>ul {
     display: flex;
     list-style: none;
     position: absolute;
     top: 30px;
-    left:-400px;
-    
-
+    left: -400px;
 }
 
 nav {
@@ -128,12 +122,8 @@ nav {
     position: relative;
 }
 
-
-
-
-
 nav .nav3 a img {
-    margin-left:20px;
+    margin-left: 20px;
     width: 70px;
     height: 50px;
 }
@@ -152,19 +142,19 @@ nav .nav1 .nav4 {
     display: flex;
     justify-content: space-between;
 }
-.nav1 .bod1{
+
+.nav1 .bod1 {
     background-color: black;
     border-radius: 25px;
 }
-nav .nav1 .nav4 input{
+
+nav .nav1 .nav4 input {
     border-radius: 25px;
     font-size: 16pt;
-    width:200px;
+    width: 200px;
     border: 2px solid black;
     padding: 18px;
-    
 }
-
 
 nav .nav1 .bod1 .nav4 .a3 {
     padding-top: 15px;
@@ -183,7 +173,6 @@ nav .nav1 div .a2:hover {
 nav .nav1 .bod1 {
     display: flex;
     position: absolute;
-
     padding: 0;
     top: 10px;
     right: 10px;
@@ -205,7 +194,6 @@ nav a:hover {
 }
 
 /* nav */
-
 
 /* bod */
 
@@ -361,61 +349,65 @@ aside {
 /* bod4 */
 
 /* cha */
+
 .cha {
     background-color: transparent;
     width: 100%;
     height: 100px;
+}
+
+.cha1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cha2 p{
+    padding-right: 30px;
+
+}
+.cha4 {
     display: flex;
     justify-content: center;
     
 }
-.cha1{
-    display: block;
-    width: 50%;
-    padding-left: 300px;
-}
-.cha4{
-    display: block;
-    width: 50%;
-}
-.cha2{
-    margin-left: 480px;
-    
-}
-.cha5{
+
+/* .cha5{
     
     padding-left:40px;
-}
-.cha3{
-    width: 18%;
+} */
+
+.cha3 {
+    width: 5%;
     height: 5px;
     background-color: #0072ce;
-    margin-left: 450px;
 }
-.cha6{
-    width: 20%;
+
+.cha6 {
+    width: 5%;
     height: 5px;
     background-color: #0072ce;
     opacity: 50%;
 }
+
 /* cha */
 
 /* moa */
-.moa{
-    padding-top:50px;
+
+.moa {
+    padding-top: 50px;
     padding-bottom: 55px;
     background-color: #282829;
 }
-.moa h2{
+
+.moa h2 {
     font-weight: bold;
     text-align: center;
     font-size: 40px;
     color: #f5f5f5;
     margin-bottom: 50px;
-    
 }
 
-.moa2{
+.moa2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -423,25 +415,26 @@ aside {
     padding-left: 170px;
     padding-right: 170px;
 }
-.moa2 a{
+
+.moa2 a {
     width: 25%;
     margin-bottom: 30px;
     padding-left: 10pt;
     padding-right: 10pt;
-    
-    border-radius:25px;
-    
+    border-radius: 25px;
 }
-.moa2 a:hover{
-    transform: scale(1.02); 
+
+.moa2 a:hover {
+    transform: scale(1.02);
 }
-.moa2 a img{
+
+.moa2 a img {
     width: 100%;
     height: 100%;
     display: block;
     border-radius: 25px;
-
 }
+
 /* moa */
 
 /* footer */
