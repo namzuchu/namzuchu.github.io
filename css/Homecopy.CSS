@@ -22,82 +22,49 @@
 
 /* a1 */
 
-/* click-menu */
-
-.click-menu {
+/*  */
+.click-menu{
     width: 100%;
-    background-color: white;
     transition: height 0.5s;
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid #e5e5e5;
-    height: 0;
-    transition: all 0.5s;
-}
-.click-menu a{
-    text-decoration: none;
-}
-#menu-click {
-    display: none;
+    height: 100px;
+    background-color: #0072ce;
 }
 
-#menu-click:checked~.click-menu {
+#menu-click:checked ~ .click-menu{
     height: 200px;
 }
 
-.click-menu ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 150px;
-    border-bottom: 2px solid #e5e5e5;
-    padding-bottom: 20px;
-}
-
-.click-menu ul li {
-    display: inline-block;
-}
-
-.click-menu ul li a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    color: black;
-}
-
-.click-menu ul li a:hover {
-    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
-}
-
-.click-menu ul li a img {
-    width: 120px;
-    display: block;
-}
-
-/* click-menu */
+/*  */
 
 /* header */
 
 header {
     width: 100%;
     background-image: url(../images/1.jpg);
+    padding-bottom: 0px;
+    height: 800px;
     background-size: cover;
     background-position: center center;
-    padding-bottom: 0px;
+}
+
+header img {
+    width: 100%;
     height: 800px;
     position: relative;
 }
 
-header a {
+header h1 {
     position: absolute;
-    top: 600px;
+    top: 800px;
     left: 400px;
+}
+
+header h1 a {
     color: aqua;
     text-decoration: none;
 }
-
-
 
 /* header */
 
@@ -131,21 +98,37 @@ header a {
 /* nav */
 
 .nav5>ul>li {
-    padding:0;
-    margin:0;
+    padding-right: 50px;
+    position: relative;
     width: 100%;
-    display: flex;
 }
-label{
-    margin-left: 20px;
-    margin-right: 20px;
-    transform: translateX(-450px);
+
+.nav5>ul>li>ul {
+    position: absolute;
+    display: none;
+    list-style: none;
+    line-height: 30px;
+    width: 100%;
+}
+
+.nav5>ul>li:hover ul {
+    margin-top: 10px;
+    box-shadow: 10px -10px 40px aqua;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: flex;
+    ;
+    width: 400px;
+    justify-content: center;
 }
 
 .nav5>ul {
-    transform: translateY(30px);
+    display: flex;
     list-style: none;
+    position: absolute;
     top: 30px;
+    left: -400px;
 }
 
 nav {
@@ -175,16 +158,27 @@ nav .nav1 .nav4 {
     display: flex;
     justify-content: space-between;
 }
-.nav1 .bod1{
+
+.nav1 .bod1 {
     background-color: black;
     border-radius: 25px;
 }
-nav .nav1 .nav4 input{
+
+nav .nav1 .nav4 input {
     border-radius: 25px;
     font-size: 16pt;
-    width:200px;
+    width: 200px;
     border: 2px solid black;
-    border-radius: 25px;   
+    padding: 18px;
+}
+
+nav .nav1 .bod1 .nav4 .a3 {
+    padding-top: 15px;
+}
+
+nav .nav1 .nav4 .a4 {
+    padding: 18px;
+    font-size: 16pt;
 }
 
 nav .nav1 div .a2:hover {
@@ -200,7 +194,9 @@ nav .nav1 .bod1 {
     right: 10px;
 }
 
-
+nav .nav5 {
+    padding-top: 40px;
+}
 
 nav a {
     text-decoration: none;
@@ -213,9 +209,7 @@ nav a:hover {
     padding: 10px;
 }
 
-
 /* nav */
-
 
 /* bod */
 
@@ -384,14 +378,14 @@ aside {
     width: 100%;
     color: white;
 }
-
-.cha2 p {
+.cha2 p{
     padding-right: 30px;
-}
 
+}
 .cha4 {
     display: flex;
     justify-content: center;
+    
 }
 
 .cha3 {

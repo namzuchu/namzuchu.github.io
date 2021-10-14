@@ -43,7 +43,9 @@
 #menu-click {
     display: none;
 }
-
+.click-menu a{
+    text-decoration: none;
+}
 #menu-click:checked~.click-menu {
     height: 200px;
 }

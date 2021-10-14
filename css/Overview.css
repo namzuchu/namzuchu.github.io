@@ -63,7 +63,9 @@ header div div h1 {
     height: 0;
     transition: all 0.5s;
 }
-
+.click-menu a{
+    text-decoration: none;
+}
 #menu-click {
     display: none;
 }
