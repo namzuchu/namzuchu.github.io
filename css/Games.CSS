@@ -506,7 +506,7 @@ nav a:hover {
     width:50%;
 }
 .pea p{
-    width:90%;
+    width:80%;
     font-size: 15pt;
 }
 .pea p:first-child{
@@ -811,21 +811,19 @@ nav a:hover {
     /* transform: translateX(-111px); */
 }
 .cha2{
-    width:15%;
-    
+    width:11%;
+    background-color: red;
+    margin-left: 50px;
+    padding-left:20px;
 }
-.cha2 p{
-    padding-left: 75px;
-}
+
 .cha5{
-    width:15%;
-    
+    width:15%;   
 }
 
 .cha4 {
     display: flex;
     justify-content: center;
-    
 }
 
 .cha3 {
@@ -856,9 +854,6 @@ nav a:hover {
 .uea .uea1 {
     width:45%;
     margin-left: 180px;
-    
-    
-    
 }
 .uea .uea1 img{
     width:100%;
@@ -870,7 +865,6 @@ nav a:hover {
     width:100%;
     padding-left: 40px;
     height:340px;
-    
 }
 .uea .uea3{
     width:45%;
@@ -907,14 +901,16 @@ margin-bottom: 30px;
 .iea {
     display: flex;
     width: 100%;
-    height: 450px;
+    height:100%;
+    padding-top:50px;
+    padding-bottom:50px;
     justify-content: center;
-    background-color: rgb(247, 241, 241);
+    /* background-color: rgb(247, 241, 241); */
+    background-color: red;
 }
 
 .iea .iea1 {
     width:30%;
-    
     margin-left: 180px;
 }
  .iea1 img{
@@ -976,8 +972,10 @@ margin-bottom: 30px;
     text-decoration: none;
     border-radius: 25px;
     border: 2px solid white;
-    line-height: 150px;
     padding: 10px;
+}
+.iea .lip{
+    margin-top:30px;
 }
 .iea5{
     width: 100%;
@@ -1302,154 +1300,52 @@ margin-bottom: 20px;
     margin:20px;
 }
 /* cách đều chữ */
-.nea .nea3 .nea8{
+.nea  .nea8{
     width:100%;
     margin:20px;
 }
-.nea .nea4 .nea8{
-    width:100%;
-    margin:20px;
-}
-.nea .nea5 .nea8{
-    width:100%;
-    margin:20px;
-}
-.nea .nea6 .nea8{
-    width:100%;
-    margin:20px;
-}
+
 /* cách đều chữ */
-
-
-.nea .nea3 .nea8 .nea9{
+.nea .nea9{
     display: flex;
 }
-.nea .nea3 .nea8 h2{
+.nea  h2{
 margin-bottom: 20px;
-}
-.nea .nea4 .nea8 .nea9{
-    display: flex;
-}
-.nea .nea4 .nea8 h2{
-margin-bottom: 20px;
-}
-.nea .nea5 .nea8 .nea9{
-    display: flex;
-}
-.nea .nea5 .nea8 h2{
-margin-bottom: 20px;
-}
-.nea .nea6 .nea8 .nea9{
-    display: flex;
-}
-.nea .nea6 .nea8 h2{
-margin-bottom: 20px;
-}
-.nea .nea6 .nea8 a{
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    border: 2px solid white;
-    line-height: 150px;
-    padding: 10px;
-}
-.nea .nea5 .nea8 a{
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    border: 2px solid white;
-    line-height: 150px;
-    padding: 10px;
-}
-.nea .nea4 .nea8 a{
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    border: 2px solid white;
-    line-height: 150px;
-    padding: 10px;
-}
-.nea .nea3 .nea8 a{
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    border: 2px solid white;
-    line-height: 150px;
-    padding: 10px;
 }
 
+.nea  a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid white;
+    line-height: 150px;
+    padding: 10px;
+}
 
 /* nea */
  /* mea */
-.mea{
-    margin-top:60px;
-    
-    width:100%;
-    display: flex;
-    padding-left:200px;
-    padding-right: 180px;
-    margin-bottom: 60px;
+.sea{
+    width: 100%;
+    margin-bottom: 50px;
 }
-.mea10{
-    display: flex;
-    justify-content: center;
-    width:100%;
-    
-}
-.mea11{
-    width:100%;
-}
-.mea .mea1 .mea3 img{
-    width:88%;
-    height: 150px;
-    margin:20px;
-}
-.mea .mea2 .mea3 img{
-    width:88%;
-    height: 150px;
-
-    margin: 20px;
-}
-/* cách đều chữ */
-
-.mea .mea10 .mea1 .mea4{
+.sea  .nea8{
     width:100%;
     margin:20px;
 }
-.mea .mea10 .mea2 .mea4{
-    width:100%;
-    margin:20px;
+.sea .nea4 img{
+    height:150px;
 }
-.mea .mea10 .mea1 .mea4 .mea5 h2{
-    margin-bottom: 20px;
-}
-.mea .mea10 .mea2 .mea4 .mea5 h2{
-    margin-bottom: 20px;
-}
-/* cách đều chữ */
-
-.mea .mea10 .mea1 .mea4 .mea5{
+.sea1{
+    width: 50%;
     display: flex;
+    background-color:aqua;
+    margin-right: none;
 }
-.mea .mea10 .mea2 .mea4 .mea5{
-    display: flex;
+.sea2{
+    width:50%;
 }
-
-.mea1{
-    background-color: rgb(247, 241, 241);
-
-    margin-right: 20px;
-}
-.mea2{
-    background-color: rgb(247, 241, 241);
-    margin-right: 20px;
-}
-
-.mea .mea1 a{
+.sea a{
     background-color: blue;
     color: white;
     text-decoration: none;
@@ -1458,8 +1354,7 @@ margin-bottom: 20px;
     line-height: 150px;
     padding: 10px;
 }
-
-/* mea */
+/* sea */
 
 /* footer */
 
