@@ -32,7 +32,9 @@
     height: 0;
     transition: all 0.5s;
 }
-
+.click-menu a{
+    text-decoration: none;
+}
 #menu-click {
     display: none;
 }
@@ -62,9 +64,9 @@
     color: black;
 }
 
-.click-menu ul li a:hover {
+/* .click-menu ul li a:hover {
     box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
-}
+} */
 
 .click-menu ul li a img {
     width: 120px;
@@ -104,17 +106,21 @@ header  h1 {
 /* nav */
 
 .nav5>ul>li {
-    margin-right: 50px;
-    position: relative;
+    padding:0;
+    margin:0;
     width: 100%;
+    display: flex;
+}
+label{
+    margin-left: 20px;
+    margin-right: 20px;
+    transform: translateX(-450px);
 }
 
 .nav5>ul {
-    display: flex;
+    transform: translateY(30px);
     list-style: none;
-    position: absolute;
     top: 30px;
-    left: -400px;
 }
 
 nav {
@@ -169,9 +175,7 @@ nav .nav1 .bod1 {
     right: 10px;
 }
 
-nav .nav5 {
-    padding-top: 40px;
-}
+
 
 nav a {
     text-decoration: none;
@@ -431,13 +435,13 @@ nav a:hover {
     margin-bottom: 30px;
 }
 .fea a {
-    color: black;
+    color: white;
     text-decoration: none;
     border-radius: 25px;
     border: 2px solid black;
     padding: 10px;
     line-height: 100px;
-    background-color:#0072ce;
+    background-color:blue;
 }
 
 
@@ -533,12 +537,12 @@ nav a:hover {
     margin-bottom: 30px;
 }
 .pea a {
-    color: black;
+    color: white;
     text-decoration: none;
     border-radius: 25px;
     border: 2px solid black;
     padding: 10px;
-    background-color:#0072ce;
+    background-color:blue;
     line-height: 100px;
 }
 

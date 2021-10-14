@@ -107,17 +107,21 @@ header div div h1 {
 /* nav */
 
 .nav5>ul>li {
-    margin-right: 50px;
-    position: relative;
+    padding:0;
+    margin:0;
     width: 100%;
+    display: flex;
+}
+label{
+    margin-left: 20px;
+    margin-right: 20px;
+    transform: translateX(-450px);
 }
 
 .nav5>ul {
-    display: flex;
+    transform: translateY(30px);
     list-style: none;
-    position: absolute;
     top: 30px;
-    left: -400px;
 }
 
 nav {
@@ -171,11 +175,6 @@ nav .nav1 .bod1 {
     top: 10px;
     right: 10px;
 }
-
-nav .nav5 {
-    padding-top: 40px;
-}
-
 nav a {
     text-decoration: none;
     padding: 10px;
@@ -186,6 +185,7 @@ nav a:hover {
     color: aqua;
     padding: 10px;
 }
+
 
 /* nav */
 
