@@ -28,7 +28,7 @@
     position: relative;
     opacity: 100%;
 }
-/* click-menu */
+/* click-menu *//* click-menu */
 #menu-click:checked~.click-menu {
     height: 200px;
     display: flex;
@@ -40,6 +40,7 @@
     width: 100%;
     height: 150px;
     border-bottom: 2px solid #e5e5e5;
+    /* background-color: #0072ce; */
     padding-bottom: 20px;
 }
 .title1{
@@ -68,12 +69,26 @@
     display: inline-block;
     justify-content: space-between;
 }
+.title1{
+    display: flex;
+    justify-content: center;
+    font-size:14pt;
+    padding-top:10px;
+}
+.title1 li:hover {
+    transform:scale(1.02);
+    box-shadow: 0px 0px 5px #0072ce;
+}
+
+.click-menu ul li:first-child>a{
+    padding-top: 10px;
+}
 .click-menu ul li a {
     color: black;
     display: block;
     text-align: center;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -139,12 +154,22 @@
     display: inline-block;
     justify-content: space-between;
 }
+.click-menu1 ul li:first-child>a{
+    padding-top: 10px;
+}
+.click-menu1 ul li:nth-child(3)>a>img{
+    height:100px;
+
+}
+.click-menu1 ul li:nth-child(3)>a{
+    padding-top: 20px;
+}
 .click-menu1 ul li a {
     text-decoration: none;
     display: block;
     text-align: center;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-right: 30px;
     padding-left: 30px;
     color: black;
@@ -248,17 +273,10 @@
 /* click-menu4 */
 
 #menu-click4:checked ~ .click-menu4 {
-    height: 200px;
+    height: 130px;
     display: flex;
 }
-.click-menu4 ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 150px;
-    border-bottom: 2px solid #e5e5e5;
-    padding-bottom: 20px;
-}
+
 .click-menu4 {
     display: none;
     width: 100%;
@@ -269,30 +287,23 @@
     height: 0;
     transition: all 0.5s;
 }
-.click-menu4 a{
+
+.click-menu4 a {
     text-decoration: none;
-}
-.click-menu4 ul li {
-    display: inline-block;
-}
-.click-menu4 ul li a {
     display: block;
-    padding: 10px;
     text-align: center;
     font-weight: bold;
     color: black;
 }
 
-.click-menu4 ul li a:hover {
-    transform:scale(1.02);
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px #0072ce;
+
+.click-menu4 .title3 img{
+    border-radius: 50px;
+    margin-top: 10px;
+    width:90px;
+    height:90px;
 }
 
-.click-menu4 ul li a img {
-    width: 120px;
-    display: block;
-}
 /* click-menu4 */
 /* nav */
 
